@@ -1,0 +1,14 @@
+<tr-banner
+  [color]="color"
+  title="News"
+  description="News Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis explicabo commodi."
+  image="https://liuwagtailprod.blob.core.windows.net/lni-wagtail-prod/images/Planeacion-y-organizacion.original.format-jpeg.jpg"
+></tr-banner>
+
+<tr-card *ngFor="let specificNews of news"
+  [url]="specificNews.id"
+  [title]="specificNews.title"
+  subtitle="News"
+  [description]="specificNews.short_description"
+  [image]="specificNews.image_url"
+></tr-card>

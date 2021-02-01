@@ -1,0 +1,92 @@
+/* Variables
+**************************/
+
+$primary-color: #FF7C5F;
+$secondary-color: #3A86CF;
+$third-color: #979797;
+$fourth-color: #f2f4f5;
+$fifth-color: #0d1733;
+$lightest-color: #ffffff;
+$darkest-color: #334652;
+
+$darkest-color-footer: #334652;
+
+$accent-color-01: #1400A1;
+$accent-color-02: #A6D800;
+$accent-color-03: #B200FF;
+$accent-color-04: #00AED6;
+$accent-color-05: #FF7900;
+$accent-color-06: #323e56;
+$accent-color-07: #84C470;
+$accent-color-08: #463B96;
+$accent-color-09: #F9C035;
+
+$header-text-color:#334652;
+$header-bg-color:  #ffffff;
+$pass-bg-color: rgb(255,124,95) linear-gradient(90deg, rgba(255,124,95,1) 0%, rgba(253,200,115,1) 100%);
+
+$link-color: #FF7C5F;
+$tag-background: #eef0f1;
+
+$achievements-card-bg: #00AED6;
+$certificates-card-bg: #A6D800;
+
+$button-color-text: #334652;
+
+$primary-font: "canada-type-gibson", "Helvetica Neue", Arial, sans-serif;
+$secondary-font: "Lato", "Helvetica Neue", Arial, sans-serif;
+
+:root {
+  --primary-font: "canada-type-gibson", "Helvetica Neue", Arial, sans-serif;
+
+  --primary-color: #FF7C5F;
+  --secondary-color: #3A86CF;
+  --third-color: #979797;
+  --fourth-color: #f2f4f5;
+  --fifth-color: #0d1733;
+  --lightest-color: #ffffff;
+  --darkest-color: #334652;
+  --darkest-color-rgb: 51, 70, 82;
+
+  --link-color: #FF7C5F;
+  --tag-background: #eef0f1;
+
+  --accent-color-01: #1400A1;
+  --accent-color-02: #A6D800;
+  --accent-color-03: #B200FF;
+  --accent-color-04: #00AED6;
+  --accent-color-05: #FF7900;
+  --accent-color-06: #323e56;
+  --accent-color-07: #84C470;
+  --accent-color-08: #463B96;
+  --accent-color-09: #F9C035;
+
+}
+
+/* Background Variables
+**************************/
+$support-section: url("https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/support/polygon-bg-support.svg");
+
+.background-polygon-6 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-6.svg');
+}
+
+.background-polygon-7 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-7.svg');
+}
+
+.background-polygon-8 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-8.svg');
+}
+
+.background-polygon-9 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-9.svg');
+}
+
+.background-polygon-10 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-10.svg');
+}
+
+.background-polygon-11 {
+  background-image: url('https://storage.googleapis.com/portal-assets/dtQrvgVlFP2VWV5IpTGZP5w179Wf9lad95vh9JHI/images/images/Background-Polygon/polygon-11.svg');
+}

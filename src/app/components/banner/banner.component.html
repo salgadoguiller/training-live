@@ -1,0 +1,20 @@
+<div class="banner banner--boxed banner--{{color}}">
+  <div class="banner__content">
+    <div class="banner__text">
+      <h4 class="banner__title" [innerHTML]="title"></h4>
+      <p class="label__description"
+        [innerHTML]="description">
+      </p>
+    </div>
+
+    <div class="banner__actions" #actions>
+      <ng-content></ng-content>
+    </div>
+  </div>
+
+  <div class="banner__image" [style.background-image]="getImage(image)">
+
+    <div class="banner__inside-image" [style.background-image]="getImage(insideImage)">
+    </div>
+  </div>
+</div>

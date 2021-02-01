@@ -1,0 +1,14 @@
+<a class="text-decor-none" [routerLink]="url">
+  <div class="card card--horizontal card--video--horizontal">
+    <div class="card__header">
+      <div class="video-thumbnail" [style.background-image]="getImage()">
+      </div>
+    </div>
+
+    <div class="card__body">
+      <div class="card__subtitle" [innerHTML]="subtitle"></div>
+      <div class="card__title" [innerHTML]="title"></div>
+      <div class="card__description" [innerHTML]="description"></div>
+    </div>
+  </div>
+</a>

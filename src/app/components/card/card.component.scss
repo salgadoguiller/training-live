@@ -1,0 +1,109 @@
+@import '../../../assets/styles/breakpoints';
+@import '../../../assets/styles/typography';
+@import '../../../assets/styles/base';
+
+.card {
+  position: relative;
+  margin-top: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-family: var(--primary-font);
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: none;
+  border-radius: 12px;
+  padding: 0px;
+  min-width: 180px;
+  max-width: 100%;
+  box-shadow: none;
+  margin-bottom: 40px;
+  background-color: var(--lightest-color);
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.05), 0 1px 1px 0 rgba(0, 0, 0, 0.05);
+
+  @include media(tablet) {
+    flex-direction: row;
+  }
+
+  @include font-size(18px);
+
+  @media screen and (max-width:575.98px) {
+    min-width: 244px;
+  }
+
+  .video-thumbnail {
+    margin-bottom: 16px;
+    position: relative;
+    padding-top: 56.25%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+  }
+
+  .card__title {
+    color: var(--darkest-color);
+    @include font-size(14px);
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .card__description {
+    color: var(--darkest-color);
+    @include font-size(12px);
+    font-weight: 400;
+    opacity: 0.5;
+  }
+
+  .card__header {
+    .video-thumbnail {
+      width: 100%;
+      //min-width: 100%;
+      border-radius: 12px;
+      margin: 0px;
+      height: 100%;
+
+      @include media(tablet) {
+        width: 310px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+  }
+
+  .card__body {
+    margin: 0px;
+    margin-top: -24px;
+    padding: 31px 36px;
+    font-family: var(--primary-font);
+
+    @include media(tablet) {
+      margin: 0px;
+      margin-left: -12px;
+    }
+
+    .card__subtitle {
+      font-weight: 400;
+      opacity: 0.6;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin: 0px;
+      color: var(--darkest-color);
+    }
+
+    .card__title {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 1;
+      margin: 4px 0px 16px 0px;
+      color: var(--darkest-color);
+    }
+
+    .card__description {
+      opacity: 0.75;
+      font-weight: lighter;
+      font-size: 16px;
+      color: var(--darkest-color);
+    }
+  }
+}
